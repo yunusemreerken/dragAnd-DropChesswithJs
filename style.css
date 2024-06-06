@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    flex-direction: column;
+}
+
+.square {
+    width: 225px;
+    height: 225px;
+}
+
+.beige {
+    background-color: rgb(227,227,199);
+}
+.brown {
+    background-color: rgb(96,54,54);
+}
+#gameboard {
+    display: flex;
+}
+
+#info {
+    height: 30px;
+}
+
+.chess-piece{
+    width: 225px;
+    height: 225px;
+}
+.highlight {
+    background-color: rgb(233,102,102);
+}
