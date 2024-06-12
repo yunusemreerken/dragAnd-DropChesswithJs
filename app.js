@@ -42,9 +42,12 @@ function dragLeave (e) {
 
 function dragDrop (e) {
     e.target.append(beingDragged)
+    e.target.classList.remove("highlight")
 }
 
 function dragEnd (e) {
-    e.target.classList.remove("highlight")
+    e.target.classList.add("target");
+    setTimeout(() => e.target.classList.remove("target"), 100)
     console.log("The drag has ended in " + e.target.classList)
+    infoDisplay.textContent = ""
 }

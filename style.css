@@ -32,3 +32,8 @@ body {
 .highlight {
     background-color: rgb(233,102,102);
 }
+
+.target {
+    border: solid 10px rgb(169,56,56);
+    box-sizing: border-box;
+}
